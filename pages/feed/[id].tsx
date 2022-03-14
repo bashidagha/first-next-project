@@ -1,6 +1,7 @@
 import { GetServerSidePropsContext } from "next/types/index";
 import styles from '../../styles/Feed.module.scss'
 import { useRouter } from 'next/router';
+import Image from 'next/image'
 
 
 export const Feed = ({ articles, pageNumber }:any) => {
@@ -15,7 +16,7 @@ export const Feed = ({ articles, pageNumber }:any) => {
         <div className={styles.news_container} key={article.id}>
         <h4>{article.title}</h4>
         <p style={{fontWeight:"lighter"}}>{article.description}</p>
-        <img src={article.urlToImage} alt=""/>
+        <Image src={article.urlToImage} alt=""/>
         </div>
       ))
     }

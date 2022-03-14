@@ -1,5 +1,6 @@
 import { GetServerSidePropsContext } from "next/types/index";
 import styles from '../styles/Dom.module.scss'
+import Image from 'next/image'
 
 
 const DOM = ({ developer }:any) => {
@@ -10,7 +11,7 @@ const DOM = ({ developer }:any) => {
     <h1>Developer of the month</h1>
     <p>{developer.name}</p>
     <p style={{fontWeight:"lighter"}}>{developer.position}</p>
-    <img src={developer.image} alt=""></img>
+    <Image src={developer.image} alt=""/>
     <p  style={{fontWeight:"lighter"}}>{developer.description}</p>
 
     </div>
