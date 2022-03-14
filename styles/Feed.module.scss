@@ -1,0 +1,55 @@
+.container{
+  width: 100%;
+  flex-direction: column;
+
+}
+
+    .pagination{
+      display: flex;
+      max-width: 27rem;
+      margin: 0 auto;
+      flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 1rem 0;
+
+      .enable_page_nav{
+        width: 1.2rem;
+        margin: 0 3rem;
+        height: 1.4rem;
+        cursor: pointer;
+      }
+
+      .disable_page_nav{
+        width: 1.2rem;
+        margin: 0 3rem;
+        height: 1.4rem;
+        visibility: hidden;
+      }
+
+
+      svg:hover{
+        color: #0D47A1;
+      }
+
+    }
+
+.news_container{
+  max-width: 27rem;
+  font-size: .8rem;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.7rem;
+  padding-top: 0.5rem;
+    img{
+      width: 100%;
+    }
+    h4{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    }
+
+
+
+}
