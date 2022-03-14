@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link href="/dom">DOM</Link>
         </li>
         <li>
-          <Link href="https://twitter.com/nabendu82">Twitter</Link>
+          <Link href="https://twitter.com">Twitter</Link>
         </li>
 
       </ul>
