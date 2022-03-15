@@ -1,8 +1,6 @@
-
-
 .pagecontainer{
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     margin-top: 2rem;
     width: 100%;
     justify-content: center;
@@ -13,7 +11,12 @@ flex-direction: column;
   max-width: 30rem;
 }
 
-.pagecontainer img{
-  border-radius: 50%;
-  max-width: 25rem;
+.image_container{
+  min-width: 8rem;
+  min-height: 8rem;
+  position: relative;
+}
+
+.dev_img{
+    border-radius: 50%;
 }

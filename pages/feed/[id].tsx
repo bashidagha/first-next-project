@@ -16,7 +16,7 @@ export const Feed = ({ articles, pageNumber }:any) => {
         <div className={styles.news_container} key={article.id}>
         <h4>{article.title}</h4>
         <p style={{fontWeight:"lighter"}}>{article.description}</p>
-        <Image src={article.urlToImage} alt=""/>
+        <img src={article.urlToImage} alt=""/>
         </div>
       ))
     }

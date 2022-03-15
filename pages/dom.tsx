@@ -11,7 +11,9 @@ const DOM = ({ developer }:any) => {
     <h1>Developer of the month</h1>
     <p>{developer.name}</p>
     <p style={{fontWeight:"lighter"}}>{developer.position}</p>
-    <Image src={developer.image} alt=""/>
+    <div className={styles.image_container}>
+    <Image src={developer.image} alt="developer image" layout="fill" className={styles.dev_img}/>
+    </div>
     <p  style={{fontWeight:"lighter"}}>{developer.description}</p>
 
     </div>
